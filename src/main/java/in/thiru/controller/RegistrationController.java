@@ -20,6 +20,7 @@ public class RegistrationController {
 	@GetMapping("/register")
 	public String showRegistrationForm(Model model) {
 		model.addAttribute("registrationForm", new RegistrationForm());
+         System.out.println("yes showRegistrationForm its executed first");
 		return "registration";
 	}
 
