@@ -15,6 +15,7 @@ public class EmailService {
 		message.setTo(toEmail);
 		message.setSubject("Registration Successful");
 		message.setText("Thank you for registering. Your registration is successful.");
+		message.setText("you have a better future mr thiru");
 
 		javaMailSender.send(message);
 	}
