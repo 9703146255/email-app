@@ -14,15 +14,8 @@ import in.thiru.service.EmailService;
 @Controller
 public class RegistrationController {
 
+                 @Autowired
 	private final EmailService emailService;
-
-	public RegistrationController(EmailService emailService) {
-		this.emailService = emailService;
-	}
-	
-	
-	
-	
 
 	@GetMapping("/register")
 	public String showRegistrationForm(Model model) {
