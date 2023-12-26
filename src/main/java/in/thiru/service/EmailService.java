@@ -11,6 +11,7 @@ public class EmailService {
 	private final JavaMailSender javaMailSender;
 
 	public void sendRegistrationEmail(String toEmail) {
+		System.out.println("first added here");
 		SimpleMailMessage message = new SimpleMailMessage();
 		message.setTo(toEmail);
 		message.setSubject("Registration Successful");
