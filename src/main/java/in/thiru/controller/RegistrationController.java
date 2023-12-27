@@ -29,11 +29,9 @@ public class RegistrationController {
 	@PostMapping("/register")
 	public String processRegistration(RegistrationForm registrationForm) {
 		// Perform form validation here if needed
-<<<<<<< HEAD
-		System.out.println("processRegistration() method is executing");
-=======
-		System.out.println("processRegistration() method executing here");
->>>>>>> 44965e960a956a5c01addcb4354e105750f4c972
+
+	
+
 		// Send email
 		emailService.sendRegistrationEmail(registrationForm.getEmail());
 
