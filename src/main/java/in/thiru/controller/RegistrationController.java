@@ -30,9 +30,7 @@ public class RegistrationController {
 	public String processRegistration(RegistrationForm registrationForm) {
 		// Perform form validation here if needed
 
-		System.out.println("processRegistration() method is executing");
-
-		System.out.println("processRegistration() method executing here");
+	
 
 		// Send email
 		emailService.sendRegistrationEmail(registrationForm.getEmail());
