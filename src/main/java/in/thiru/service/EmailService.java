@@ -20,4 +20,10 @@ public class EmailService {
 
 		javaMailSender.send(message);
 	}
-}
+
+	public void m2()
+	{
+	   int x=1000;
+	   int y=2000;
+	//logic
+	}
