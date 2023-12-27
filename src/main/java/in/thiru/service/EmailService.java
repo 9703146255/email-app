@@ -9,6 +9,15 @@ public class EmailService {
 
 	@Autowired
 	private final JavaMailSender javaMailSender;
+	
+	//story point-101
+	public void m1()
+	{
+	  int a=10
+	 int b=20
+	//logic
+	}
+	
 
 	public void sendRegistrationEmail(String toEmail) {
 		System.out.println("first added here");
