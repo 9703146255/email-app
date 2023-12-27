@@ -19,6 +19,7 @@ public class RegistrationController {
 
 	@GetMapping("/register")
 	public String showRegistrationForm(Model model) {
+		
 		model.addAttribute("registrationForm", new RegistrationForm());
 		System.out.println("yes showRegistrationForm its executed first");
 		System.out.println("showRegistrationForm method is executing");
@@ -29,6 +30,13 @@ public class RegistrationController {
 	@PostMapping("/register")
 	public String processRegistration(RegistrationForm registrationForm) {
 		// Perform form validation here if needed
+
+		System.out.println("second developer added");
+
+		System.out.println("first developer added");
+
+
+	
 
 		// Send email
 		emailService.sendRegistrationEmail(registrationForm.getEmail());
