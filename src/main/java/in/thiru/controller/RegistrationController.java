@@ -30,7 +30,12 @@ public class RegistrationController {
 	@PostMapping("/register")
 	public String processRegistration(RegistrationForm registrationForm) {
 		// Perform form validation here if needed
+
 		System.out.println("second developer added");
+
+		System.out.println("first developer added");
+
+
 	
 
 		// Send email
