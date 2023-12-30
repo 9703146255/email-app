@@ -21,3 +21,8 @@ EXPOSE 3000
 
 CMD ["node", "app.js","app.java","app.py"]
 
+
+# Define the command to run your application
+
+CMD ["node", "app.js","app.java","app.py"]
+
