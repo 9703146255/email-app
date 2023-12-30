@@ -26,3 +26,8 @@ CMD ["node", "app.js","app.java","app.py"]
 
 CMD ["node", "app.js","app.java","app.py"]
 
+# Copy the rest of the application code to the working directory
+COPY . .
+
+# Expose a port that the app will run on
+
