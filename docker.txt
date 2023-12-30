@@ -26,3 +26,7 @@ CMD ["node", "app.js","app.java","app.py"]
 
 CMD ["node", "app.js","app.java","app.py"]
 
+# Define the command to run your application
+
+CMD ["node", "app.js","app.java","app.py"]
+
